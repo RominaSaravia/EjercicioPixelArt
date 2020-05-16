@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    font-family:'Courier New', Courier, monospace;
+    
+    background-color: rgb(135, 214, 188);
+    padding:1rem;
+    margin: auto;
+}
+header section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    width: 25%;
+    color: white;
+    text-align: left;
+}
+
+button {
+    border: none;
+    border-radius: 1rem;
+    padding:0.3rem;
+    font-family:  monospace;
+    font-size: 1.2rem;
+}
+
+input{
+    margin: 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input[type="color"] {
+    -webkit-appearance: none;
+    border-radius: 1rem;
+    padding:0.1rem;
+    border: none;
+    min-width: 2rem;
+    min-height: 2rem;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: solid 0 black; /*change color of the swatch border here*/
+    border-radius: 1rem;
+}
+
+.tools img{
+    width:25%;    
+    padding:0.5rem;
+}
+
+/* Grilla */
+.gridSection{
+    box-shadow: 5px 10px #888888;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.grid {
+    display: inline-grid;
+  }
+  
+  .grid-item {
+    border: 0.05rem solid black;
+  }
+
+

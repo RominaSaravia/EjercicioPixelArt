@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+    <h1>PIXEL ART</h1>
+        
+    <section class="tools">
+    <img src="img/lapizIcono.png" onclick="setPen(true)" id="penIcon">
+    <input id="chosenColor" type="color"  class="pickColor" >
+    <img src="img/gomaIcono.png" onclick="setPen(false)" id="gomaIcon">
+    <input id="backColor" type="color"  class="pickColor" >
+    </section>
+
+    <section>
+        <label for="chosenSize">Tamaño</label>
+        <input id="chosenSize"  type="number" value="20"  min="8" max="99" >
+    </section>
+
+    <section>
+        <label for="chosenCol, chooseRow">nº celdas</label>
+        <input id="chooseCol"  type="number" value="20"  min="2" max="99" >
+        <input id="chooseRow"  type="number" value="20"  min="2" max="99" >
+        <button id="resetBtn">RESET</button>
+    </section>
+
+    </header>
+
+
+    <section class="gridSection">
+        <div id="containerGrid" class="grid"></div>
+
+    </section>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
