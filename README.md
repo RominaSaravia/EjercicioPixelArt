@@ -2,6 +2,8 @@
 
 La página crea un grid inicial.
 
+LIVE: [DEMO](https://pixelation-art.netlify.app/)
+
 ### Acciones que se pueden realizar
 
 * __Pintar__ las celdas de un *color elegido*.
