@@ -14,8 +14,6 @@ h1 {
 }
 
 .container-fluid {
-    padding-right: 0;
-    padding-left: 0;
     width: 100%;
     margin: auto;
   }
@@ -83,7 +81,6 @@ input[type="color"]::-webkit-color-swatch {
 
 /* Grilla */
 .gridSection{
-    box-shadow: 5px 10px #888888;
     margin: 2rem auto;
     display: flex;
     justify-content: center;
@@ -92,6 +89,7 @@ input[type="color"]::-webkit-color-swatch {
 }
 .showgrid {
     display: inline-grid;
+    box-shadow: 5px 10px #888888;
 }
   
 .grid-item {
